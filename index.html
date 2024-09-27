@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home - Página Exemplo</title>
+    
+    <!-- Fonte Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+        /* CSS Interno */
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        /* Flexbox para layout responsivo */
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding-bottom: 50px;
+        }
+
+        .box {
+            background-color: #f9f9f9;
+            padding: 30px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            width: 30%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header style="background-color: #4CAF50; padding: 20px; color: white; text-align: center;">
+        <h1>S.O.S AMAZONIA</h1>
+        <nav>
+            <ul style="list-style-type: none; margin: 0; padding: 0;">
+                <li style="display: inline; margin-right: 10px;"><a href="Contato.html" style="color: white;">Contato</a></li>
+                <li style="display: inline; margin-right: 10px;"><a href="Sobre.html" style="color: white;">Sobre</a></li>
+                <li style="display: inline; margin-right: 10px;"><a href="Galeria.html" style="color: white;">Galeria</a></li>
+                <li style="display: inline; margin-right: 10px;"><a href="Serviços.html" style="color: white;">Serviços</a></li>
+                <li style="display: inline; margin-right: 10px;"><a href="Blogue.html" style="color: white;">Blog</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2 style="text-align: center;">Bem Vindo</h2>
+        <p style="font-family: 'Roboto', sans-serif;">A Floresta Amazônica é um dos maiores tesouros naturais do planeta, abrigando uma biodiversidade incomparável e desempenhando um papel crucial no equilíbrio climático da Terra. Nosso objetivo é conscientizar sobre a importância vital dessa floresta, suas riquezas e os perigos que ela enfrenta. </p>
+    </section>
+
+    <section class="content">
+        <article class="box">
+            <h3>A Amazônia: O Pulmão Verde do Mundo</h3>
+            <p>Você sabia que a Floresta Amazônica produz 20% de oxigênio da Terra? Além disso, ela abriga cerca de 10% das espécies conhecidas no mundo. Infelizmente, o desmatamento e as queimadas são colocados em risco desse ecossistema vital. Proteger a Amazônia é proteger o futuro do planeta e de todos nós. Descubra como pequenas ações podem fazer uma grande diferença!</p>
+        </article>
+
+        <article class="box">
+            <h3>Desmatamento: Uma Ameaça Silenciosa</h3>
+            <p>A cada minuto, uma área do tamanho de três campos de futebol é desmatada na Amazônia. O impacto dessa destruição vai além da perda de árvores: espécies inteiras estão desaparecendo, e o clima global está sendo afetado. Quer saber como isso influencia diretamente sua vida? Leia mais sobre como o desmatamento está mudando nosso planeta.</p>
+        </article>
+
+        <article class="box">
+            <h3>Os Guardiões da Floresta</h3>
+            <p>As comunidades indígenas desempenham um papel crucial na proteção da Amazônia. Vivendo em harmonia com a natureza por séculos, esses povos estão na linha de frente contra o desmatamento e a exploração predatória. Conheça suas histórias e descubra como o conhecimento ancestral pode nos ajudar a preservar a floresta para as futuras gerações.</p>
+        </article>
+    </section>
+
+    <footer>
+        <div style="text-align: center; padding: 20px; background-color: #4CAF50; color: white; margin: auto;">
+            <p>&copy; 2024 Victor Hugo Bragantin 838865. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

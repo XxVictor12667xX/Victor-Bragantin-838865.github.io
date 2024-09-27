@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sobre Nós - Página Exemplo</title>
+
+    <!-- Fonte Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Externo -->
+     <link rel="stylesheet" href="css/style.css">
+    
+
+    <style>
+        /* CSS Interno */
+        h2 {
+            font-size: 2.5em;
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .sobre-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .sobre-texto, .sobre-imagem {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .sobre-texto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .sobre-imagem img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header style="background: linear-gradient( #4CAF50); padding: 20px; color: white; text-align: center;">
+        <h1>Sobre Nossa Empresa</h1>
+        <nav>
+            <ul style="list-style-type: none; margin: 0; padding: 0;">
+                <li style="display: inline; margin-right: 10px;"><a href="index.html" style="color: white;">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Quem Somos</h2>
+        <div class="sobre-container">
+            <article class="sobre-texto">
+                <h3>Nossa História</h3>
+                <p>O S.O.S Amazonia nasceu da paixão por preservar o maior e mais rico ecossistema tropical do planeta, fundado em 2024.</p>
+                <p>Através deste site, esperamos inspirar outros a se juntarem a nós nessa jornada e fortalecer a ideia de que proteger a Amazônia é proteger o futuro do nosso planeta.</p>
+            </article>
+            
+            <article class="sobre-imagem">
+                <img src="imagens/sos-amazonia.jpg" alt="">
+            </article>
+        </div>
+    </section>
+
+    <section>
+        <h2>Nossa Missão</h2>
+        <div class="sobre-container" style="display: flex; flex-direction: row-reverse;">
+            <article class="sobre-texto">
+                <h3>O Que Defendemos</h3>
+                <p>Preservação da Biodiversidade
+                    A Amazônia abriga milhões de espécies de plantas e animais, muitas delas únicas no mundo. Defendemos a proteção de seus habitats e a criação de políticas que limitem o desmatamento e a exploração predatória.</p>
+                <p>Valorização das Comunidades Indígenas
+                    Os povos indígenas são os verdadeiros guardiões da floresta. Lutamos pelo reconhecimento de seus direitos territoriais, culturais e pelo respeito ao conhecimento ancestral que eles possuem sobre a preservação da Amazônia.</p>
+                 <p>Sustentabilidade e Combate às           Mudanças Climáticas
+                    A Floresta Amazônica é vital para a regulação do clima global. Defendemos práticas sustentáveis ​​que promovam o uso consciente dos recursos naturais, além de ações concretas para combater o aquecimento global, mitigando seus efeitos sobre a floresta.
+                        
+                    </p>
+            </article>
+        </div>
+    </section>
+
+    <footer style="background-color: #4CAF50; color: white; text-align: center; padding: 20px;">
+        <p>&copy; 2024 Empresa Exemplo. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

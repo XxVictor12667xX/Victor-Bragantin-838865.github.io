@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Blog e Notícias - Página Exemplo</title>
+
+    <!-- Fonte Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* CSS Interno */
+        h2 {
+            font-size: 2.5em;
+            color: #333;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .blog-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px px;
+        }
+
+        .blog-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .blog-card h3 {
+            margin: 15px 0;
+            font-size: 1.2em;
+            color: #4CAF50;
+        }
+
+        .blog-card p {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .blog-card a {
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .blog-card a:hover {
+            background-color: #1e88e5;
+        }
+    </style>
+</head>
+<body>
+
+    <header style="background: linear-gradient(90deg, #4CAF50, #4CAF50); padding: 20px; color: white; text-align: center;">
+        <h1>Blog e Notícias</h1>
+        <nav>
+            <ul style="list-style-type: none; margin: 0; padding: 0;">
+                <li style="display: inline; margin-right: 10px;"><a href="index.html" style="color: white;">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Últimas Notícias</h2>
+        <div class="blog-container">
+            <!-- Artigo 1 -->
+            <article class="blog-card">
+                <h3>Mudança climática reduz capacidade da floresta amazônica de absorver CO2</h3>
+                <a href="https://www.ecodebate.com.br/2024/09/25/mudanca-climatica-reduz-capacidade-da-floresta-amazonica-de-absorver-co2/">Leia Mais</a>
+            </article>
+
+            <!-- Artigo 2 -->
+            <article class="blog-card">
+                <h3>Documentario sobre o ecoturismo na floresta amazonica</h3>
+                <a href="https://surgiu.com.br/2024/09/24/documentario-sobre-o-ecoturismo-na-floresta-amazonica/">Leia Mais</a>
+            </article>
+
+            <!-- Artigo 3 -->
+            <article class="blog-card">
+                <h3>Quase 40% da parte mais vital da floresta amazônica não está protegida, aponta ONG</h3>
+                <a href="https://www.cnnbrasil.com.br/nacional/quase-40-da-parte-mais-vital-da-floresta-amazonica-nao-esta-protegida-aponta-ong/">Leia Mais</a>
+            </article>
+
+            <!-- Artigo 4 -->
+            <article class="blog-card">
+                <h3>Desmatamento destruiu 12,5% da cobertura da Floresta Amazônica</h3> 
+                <a href="https://cidade997.com.br/desmatamento-destruiu-125-da-cobertura-da-floresta-amazonica/">Leia Mais</a>
+            </article>
+        </div>
+    </section>
+
+    <footer style="background-color: #4CAF50;color: white; text-align: center; padding: 20px;">
+        <p>&copy; 2024 Empresa Exemplo. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

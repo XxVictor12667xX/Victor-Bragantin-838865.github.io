@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Serviços e Produtos - Página Exemplo</title>
+
+    <!-- Fonte Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS Externo -->
+     <link rel="stylesheet" href="css/style.css">
+    
+
+    <style>
+        /* CSS Interno */
+        h2 {
+            font-size: 2.5em;
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+            font-weight: 600;
+        }
+
+        .servicos-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .servico-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            text-align: center;
+        }
+
+        .servico-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .servico-card h3 {
+            margin: 15px 0;
+            font-size: 1.5em;
+            color: #4CAF50;
+        }
+
+        .servico-card p {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .serviço-video{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+
+    <header style="background: linear-gradient(90deg, #4CAF50, #66BB6A); padding: 20px; color: white; text-align: center;">
+        <h1>Nossos Serviços e Produtos</h1>
+        <nav>
+            <ul style="list-style-type: none; margin: 0; padding: 0;">
+                <li style="display: inline; margin-right: 10px;"><a href="index.html" style="color: white;">Home</a></li>
+                <li style="display: inline; margin-right: 10px;"><a href="sobre.html" style="color: white;">Sobre</a></li>
+                <li style="display: inline; margin-right: 10px;"><a href="servicos.html" style="color: white;">Serviços</a></li>
+                <li style="display: inline; margin-right: 10px;"><a href="contato.html" style="color: white;">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>O Que Oferecemos</h2>
+        <div class="servicos-container">
+            <!-- Produto/Serviço 1 -->
+            <article class="servico-card">
+                <img src="imagens/produto1.jpg" alt="Produto 1">
+                <h3>Camisetas Sustentáveis</h3>
+                <p>Camisetas feitas de algodão orgânico onde parte do lucro será destinado a projetos de reflorestamento e apoio às comunidades</p>
+            </article>
+
+            <!-- Produto/Serviço 2 -->
+            <article class="servico-card">
+                <img src="imagens/produto 2.png" alt="Produto 2">
+                <h3>Adote uma Árvore</h3>
+                <p>Ofereçemos a oportunidade de as pessoas "adotarem" uma árvore na Amazônia. A cada adoção, os compradores recebem um certificado e informações sobre a árvore plantada e sua importância para o ecossistema local.</p>
+            </article>
+
+            <!-- Produto/Serviço 3 -->
+            <article class="servico-card">
+                <img src="imagens/Produto 3.jpeg" alt="Produto 3">
+                <h3>Artesanato Indígena</h3>
+                <p>Peças artesanais feitas por comunidades indígenas da Amazônia. A venda desses produtos valorizaria a cultura indígena e contribuiria diretamente para a manutenção de seus territórios e tradições.</p>
+            </article>
+
+            <!-- Produto/Serviço 4 -->
+            <article class="servico-card">
+                <img src="imagens/produto 4.jpg" alt="Produto 4">
+                <h3>Ecoprodutos</h3>
+                <p>Itens ecológicos, como garrafas reutilizáveis, canudos de bambu, e sacolas retornáveis, personalizados com o logotipo e mensagens do site. Esses produtos ajudam a reduzir o uso de plásticos aplicados e promovem o consumo consciente.</p>
+            </article>
+
+            <!-- Produto/Serviço 5 -->
+            <article class="servico-card">
+                <img src="imagens/Produto 5.jpeg" alt="Produto 5">
+                <h3>Livros e E-books sobre a Amazônia</h3>
+                <p>Livros físicos e digitais sobre a biodiversidade, história e importância da Amazônia, bem como guias sobre como contribuir para sua preservação. Parte dos rendimentos seria revertida para iniciativas ambientais na região.<p>
+            </article>
+
+            <!-- Produto/Serviço 6 -->
+            <article class="servico-card">
+                <img src="imagens/produto 6.jpg" alt="Produto 6">
+                <h3>Experiências Virtuais e Workshops</h3>
+                <p>Venda de ingressos para experiências virtuais, como passeios online guiados por biólogos na Amazônia, ou workshops sobre sustentabilidade e conservação ambiental. A renda pode financiar projetos de pesquisa e proteção da floresta.</p>
+            </article>
+        </div>
+    </section>
+
+    <footer style="background-color: #4CAF50; color: white; text-align: center; padding: 20px;">
+        <p>&copy; 2024 Empresa Exemplo. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
